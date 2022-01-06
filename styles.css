@@ -1,0 +1,549 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1b;
+}
+
+.inicio {
+  background-image: url(Media/FONDO2.png);
+  width: 1903px;
+  height: 600px;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.titulo2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.fondoTitulo2 {
+  background-color: black;
+  width: 300px;
+  margin: 0 auto;
+}
+
+button {
+  margin-left: 860px;
+  margin-top: 100px;
+  width: 200px;
+  height: 50px;
+  color: black;
+  font-family: sans-serif;
+  padding: 9px 25px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-size: 20px;
+  text-align: center;
+}
+
+.moverBoton {
+  margin: 0 auto;
+}
+
+.ducha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.tituloDucha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: 165px;
+}
+
+.textoDucha {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 230px;
+  margin-left: -300px;
+  text-align: start;
+}
+
+.widhtText {
+  width: 400px;
+}
+
+.inodoro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.tituloInodoro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: 165px;
+}
+
+.textoInodoro {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 230px;
+  margin-right: -340px;
+  text-align: end;
+}
+
+.habitacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.tituloHabitacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: 165px;
+}
+
+.textoHabitacion {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 230px;
+  margin-left: -270px;
+  text-align: start;
+}
+
+.cocina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.tituloCocina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: 165px;
+}
+
+.textoCocina {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 230px;
+  margin-right: -305px;
+  text-align: end;
+}
+
+.living {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.tituloLiving {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: 165px;
+}
+
+.textoLiving {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 230px;
+  margin-left: -270px;
+  text-align: start;
+}
+
+.tituloContacto {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.fondoCont {
+  background-image: url(Media/fondo-form2.png);
+  width: 1903px;
+  height: 600px;
+  margin: 0 auto;
+  -webkit-box-shadow: 10px 10px 5px black;
+          box-shadow: 10px 10px 5px black;
+}
+
+.row {
+  text-align: center;
+  font-family: sans-serif;
+  width: 300px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.textP {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.botonEnv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.consulta {
+  border: 3px black inset;
+  -webkit-box-shadow: 2px 2px 2px #818181;
+          box-shadow: 2px 2px 2px #818181;
+  width: 300px;
+  height: 30px;
+}
+
+.input {
+  border: 3px black inset;
+  -webkit-box-shadow: 2px 2px 2px #818181;
+          box-shadow: 2px 2px 2px #818181;
+  width: 300px;
+  height: 30px;
+}
+
+.input2 {
+  border: 3px black inset;
+  -webkit-box-shadow: 2px 2px 2px #818181;
+          box-shadow: 2px 2px 2px #818181;
+  width: 300px;
+  height: 200px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    background-color: #1a1a1b;
+  }
+  .inicio {
+    background-image: url(Media/FONDO2.png);
+    width: 850px;
+    height: 600px;
+  }
+  .titulo {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+  }
+  .titulo2 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+  }
+  .fondoTitulo2 {
+    background-color: black;
+    width: 300px;
+    margin: 0 auto;
+  }
+  button {
+    margin-left: 295px;
+    margin-top: 100px;
+    width: 250px;
+    height: 50px;
+    color: black;
+    font-family: sans-serif;
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    text-align: center;
+  }
+  .moverBoton {
+    margin: 0 auto;
+  }
+  .ducha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .tituloDucha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 110px;
+  }
+  .textoDucha {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-right: 50px;
+    text-align: start;
+    margin-left: -140px;
+    width: 400px;
+  }
+  .imagenDucha {
+    width: 400px;
+    height: 400px;
+  }
+  .widhtText {
+    width: 300px;
+  }
+  .inodoro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-right: -430px;
+  }
+  .tituloInodoro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: end;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 110px;
+  }
+  .textoInodoro {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 230px;
+    margin-right: -210px;
+    text-align: end;
+  }
+  .imagenInodoro {
+    width: 400px;
+    height: 400px;
+  }
+  .habitacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .tituloHabitacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 110px;
+  }
+  .textoHabitacion {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 240px;
+    margin-left: -140px;
+    text-align: start;
+    width: 400px;
+  }
+  .imagenHabitacion {
+    width: 400px;
+    height: 400px;
+  }
+  .cocina {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-right: -430px;
+  }
+  .tituloCocina {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 110px;
+    text-align: end;
+  }
+  .textoCocina {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 230px;
+    margin-right: -305px;
+    text-align: end;
+    width: 400px;
+  }
+  .imagenCocina {
+    width: 400px;
+    height: 400px;
+  }
+  .living {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .tituloLiving {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 110px;
+  }
+  .textoLiving {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 230px;
+    margin-left: -142px;
+    text-align: start;
+    width: 400px;
+  }
+  .imagenLiving {
+    width: 400px;
+    height: 400px;
+  }
+  .tituloContacto {
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: sans-serif;
+  }
+  .fondoCont {
+    background-image: url(Media/fondo-form2.png);
+    width: 855px;
+  }
+  .formSm {
+    margin-top: 10px;
+    width: 300px;
+  }
+  .row {
+    text-align: center;
+    font-family: sans-serif;
+    width: 300px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  .textP {
+    color: white;
+    margin-top: 10px;
+  }
+  .botonEnv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 45px;
+    background-color: black;
+    color: whit;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: white;
+  }
+  .consulta {
+    border: 2px grey double;
+    width: 300px;
+    height: 30px;
+  }
+  .input {
+    border: 2px grey double;
+    width: 300px;
+    height: 30px;
+  }
+  .input2 {
+    border: 2px grey double;
+    width: 300px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
